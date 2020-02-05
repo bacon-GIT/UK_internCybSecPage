@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eded5fae-15d5-4087-902d-8739299ac7a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="21082" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/templates/table.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/mainflask.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1X28vLYted43tsGYfp8ocfT1i0v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests.py" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\You Know\Desktop\Projects\USCERT_vulnerabilities\static" />
+      <recent name="C:\Users\You Know\Desktop\Projects\USCERT_vulnerabilities\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tests">
+    <configuration name="mainflask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="USCERT_vulnerabilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mainflask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python">
+      <module name="USCERT_vulnerabilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\You Know\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\You Know\Desktop\Projects\USCERT_vulnerabilities\xmlparse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mainflask" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eded5fae-15d5-4087-902d-8739299ac7a9" name="Default Changelist" comment="" />
+      <created>1580233058577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580233058577</updated>
+      <workItem from="1580233060026" duration="2478000" />
+      <workItem from="1580236199629" duration="1036000" />
+      <workItem from="1580248116596" duration="15672000" />
+      <workItem from="1580605640959" duration="1161000" />
+      <workItem from="1580704537829" duration="2575000" />
+      <workItem from="1580841310686" duration="5108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580407126050">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="223" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580407126050" />
+    <state x="223" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824@0.40.1536.824" timestamp="1580340730823" />
+    <state x="548" y="208" key="FileChooserDialogImpl" timestamp="1580496264854">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="548" y="208" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580233300020" />
+    <state x="548" y="208" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1580496264854" />
+    <state width="685" height="219" key="GridCell.Tab.0.bottom" timestamp="1580496465374">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580409324293" />
+    <state width="685" height="219" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1580496465374" />
+    <state width="685" height="219" key="GridCell.Tab.0.center" timestamp="1580496465374">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.center/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580409324293" />
+    <state width="685" height="219" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1580496465374" />
+    <state width="685" height="219" key="GridCell.Tab.0.left" timestamp="1580496465374">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.left/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580409324293" />
+    <state width="685" height="219" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1580496465374" />
+    <state width="685" height="219" key="GridCell.Tab.0.right" timestamp="1580496465374">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.right/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580409324293" />
+    <state width="685" height="219" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1580496465374" />
+    <state width="864" height="266" key="GridCell.Tab.1.bottom" timestamp="1580485804013">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580235120261" />
+    <state width="864" height="266" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1580485804013" />
+    <state width="864" height="266" key="GridCell.Tab.1.center" timestamp="1580485804013">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580235120261" />
+    <state width="864" height="266" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1580485804013" />
+    <state width="864" height="266" key="GridCell.Tab.1.left" timestamp="1580485804013">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580235120261" />
+    <state width="864" height="266" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1580485804013" />
+    <state width="864" height="266" key="GridCell.Tab.1.right" timestamp="1580485804013">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1580235120261" />
+    <state width="864" height="266" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1580485804013" />
+    <state x="427" y="89" key="SettingsEditor" timestamp="1580484928581">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="427" y="89" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1580484928581" />
+    <state x="841" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1580605642187">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="841" y="284" key="com.intellij.ide.util.TipDialog/0.40.1536.824@0.40.1536.824" timestamp="1580605642187" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/USCERT_vulnerabilities$tests.coverage" NAME="tests Coverage Results" MODIFIED="1580496449116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/USCERT_vulnerabilities$mainflask.coverage" NAME="mainflask Coverage Results" MODIFIED="1580485050307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
