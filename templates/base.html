@@ -1,19 +1,21 @@
 <!doctype html>
-<html>
+<html lang="en-US">
   <head>
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>{% block title %}{% endblock %} - My Webpage</title>
+    <h1><img src="{{ header_img }}" /></h1>
+    <h1>Kali Homepage for CybSec</h1><hr />
     {% endblock %}
   </head>
   <body>
-    <h1><img src="{{ header_img }}" /></h1>
-    <h1>Kali Homepage for CybSec</h1><hr />
     <div id="content">{% block content %}{% endblock %}</div>
     <div id="footer">
-      {% block footer %}
-      &copy; Copyright 2010 by <a href="http://domain.invalid/">you</a>.
-      {% endblock %}
     </div>
+  {% block footer %}
+    <div class="footer">
+  &copy; Created for <a href="https://cybsec.uky.edu">UK Cyber Security</a>.
+    </div>
+  {% endblock %}
   </body>
 </html>

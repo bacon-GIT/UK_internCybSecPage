@@ -1,5 +1,5 @@
-td {
-    text-align: center;
+header {
+    display: block;
 }
 h1 {
     text-align: center;
@@ -8,18 +8,52 @@ h1 {
     text-shadow: 2px 2px black;
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
 }
+h2 {
+    float: contour;
+    font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+    text-align: center;
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+.sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 10px;
+    background-color: #47a4ff;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 20px;
+    color: aliceblue;
+    display: block;
+}
+.footer {
+    margin-top: -50px;
+}
+.table {
+    float: right;
+    height: 20px;
+    width: 50%;
+}
 body {
     background-color: slategrey;
-}
-header {
-    display: block;
 }
 p {
     text-align: center;
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
 }
-div {
-    resize: both;
+td {
+    text-align: center;
 }
 hr {
     size: 10px;

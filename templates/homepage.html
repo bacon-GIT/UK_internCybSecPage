@@ -8,49 +8,67 @@
 {% endblock %}
 {% block content %}
 <!--Vulnerability Table-->
-<table style="width:100%" border="1">
-    <tr>
-        <th>Title</th>
-        <th>Link</th>
-        <th>Time Reported</th>
-        <th>More Details</th>
-    </tr>
-    <tr>
-        <td>{{ vuln1[0] }}</td>
-        <td><a href="{{ vuln1[1] }}">{{ vuln1[1] }}</a></td>
-        <td>{{ vuln1[2] }}</td>
-        <td>{{ vuln1[3] }}</td>
-    <tr/>
-    <tr>
-        <td>{{ vuln2[0] }}</td>
-        <td><a href="{{ vuln2[1] }}">{{ vuln2[1] }}</a></td>
-        <td>{{ vuln2[2] }}</td>
-        <td>{{ vuln2[3] }}</td>
-    <tr/>
-    <tr>
-        <td>{{ vuln3[0] }}</td>
-        <td><a href="{{ vuln3[1] }}">{{ vuln3[1] }}</a></td>
-        <td>{{ vuln3[2] }}</td>
-        <td>{{ vuln3[3] }}</td>
-    <tr/>
-    <tr>
-        <td>{{ vuln4[0] }}</td>
-        <td><a href="{{ vuln4[1] }}">{{ vuln4[1] }}</a></td>
-        <td>{{ vuln4[2] }}</td>
-        <td>{{ vuln4[3] }}</td>
-    <tr/>
-    <tr>
-        <td>{{ vuln5[0] }}</td>
-        <td><a href="{{ vuln5[1] }}">{{ vuln5[1] }}</a></td>
-        <td>{{ vuln5[2] }}</td>
-        <td>{{ vuln5[3] }}</td>
-    <tr/>
-    <tr>
-        <td>{{ vuln6[0] }}</td>
-        <td><a href="{{ vuln6[1] }}">{{ vuln6[1] }}</a></td>
-        <td>{{ vuln6[2] }}</td>
-        <td>{{ vuln6[3] }}</td>
-    <tr/>
+<div class="sidenav" style="width: 200px; float: left;">
+    <a href={{ url_for("kalidocs") }}>KaliDocs</a>
+    <a href="https://cybsec.uky.edu">CybSec Homepage</a>
+    <a href="https://uky.splunkcloud.com/en-US/account/login?return_to=%2Fen-US%2Fapp%2FITS-security">Splunk</a>
+    <a href="https://www.us-cert.gov/">USCERT</a>
+    <a color="red" href={{ url_for("policy") }}>UKY Policy</a>
+    <a href={{ url_for("wereworkingonthat") }}>Login Pages to Attack</a>
+</div>
+<!--Blog TODO
+<div class="blog">
+    <h2>Cyber Security Club Blog:</h2>
+    <p>Latest happenings</p>
+</div>
+-->
+
+<div class="table">
+    <table border="1">
+        <tr>
+            <th>Title</th>
+            <th>Link</th>
+            <th>Time Reported</th>
+            <th>More Details</th>
+        </tr>
+        <tr>
+            <td>{{ vuln1[0] }}</td>
+            <td><a href="{{ vuln1[1] }}">{{ vuln1[1] }}</a></td>
+            <td>{{ vuln1[2] }}</td>
+            <td>{{ vuln1[3] }}</td>
+        <tr/>
+        <tr>
+            <td>{{ vuln2[0] }}</td>
+            <td><a href="{{ vuln2[1] }}">{{ vuln2[1] }}</a></td>
+            <td>{{ vuln2[2] }}</td>
+            <td>{{ vuln2[3] }}</td>
+        <tr/>
+        <tr>
+            <td>{{ vuln3[0] }}</td>
+            <td><a href="{{ vuln3[1] }}">{{ vuln3[1] }}</a></td>
+            <td>{{ vuln3[2] }}</td>
+            <td>{{ vuln3[3] }}</td>
+        <tr/>
+        <tr>
+            <td>{{ vuln4[0] }}</td>
+            <td><a href="{{ vuln4[1] }}">{{ vuln4[1] }}</a></td>
+            <td>{{ vuln4[2] }}</td>
+            <td>{{ vuln4[3] }}</td>
+        <tr/>
+        <tr>
+            <td>{{ vuln5[0] }}</td>
+            <td><a href="{{ vuln5[1] }}">{{ vuln5[1] }}</a></td>
+            <td>{{ vuln5[2] }}</td>
+            <td>{{ vuln5[3] }}</td>
+        <tr/>
+        <tr>
+            <td>{{ vuln6[0] }}</td>
+            <td><a href="{{ vuln6[1] }}">{{ vuln6[1] }}</a></td>
+            <td>{{ vuln6[2] }}</td>
+            <td>{{ vuln6[3] }}</td>
+        <tr/>
+    </table>
+</div>
 </body>
 </html>
 {% endblock %}
