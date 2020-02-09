@@ -7,24 +7,22 @@
   </style>
 {% endblock %}
 {% block content %}
-<!--Vulnerability Table-->
+
+<!--Sidebar-->
 <div class="sidenav" style="width: 200px; float: left;">
-    <a href={{ url_for("kalidocs") }}>KaliDocs</a>
+    <a href="https://www.kali.org/docs/">KaliDocs</a>
     <a href="https://cybsec.uky.edu">CybSec Homepage</a>
     <a href="https://uky.splunkcloud.com/en-US/account/login?return_to=%2Fen-US%2Fapp%2FITS-security">Splunk</a>
     <a href="https://www.us-cert.gov/">USCERT</a>
     <a color="red" href={{ url_for("policy") }}>UKY Policy</a>
-    <a href={{ url_for("wereworkingonthat") }}>Login Pages to Attack</a>
+    <a href={{ url_for("wereworkingonthat") }}>Login Pages to Attack</a> <!-- Make Drop Down -->
 </div>
-<!--Blog TODO
-<div class="blog">
-    <h2>Cyber Security Club Blog:</h2>
-    <p>Latest happenings</p>
-</div>
--->
 
+
+<!--Vulnerability Table-->
 <div class="table">
-    <table border="1">
+    <h1>USCERT Latest Reported Vulnerabilities</h1>
+    <table border="1" style="color: greenyellow">
         <tr>
             <th>Title</th>
             <th>Link</th>
@@ -68,6 +66,18 @@
             <td>{{ vuln6[3] }}</td>
         <tr/>
     </table>
+</div>
+<!--Blog TODO-->
+<div class="blog">
+    <h2>Cyber Security Club Blog</h2>
+    <p>Latest happenings</p>
+    <p>Latest happenings</p>
+    <p>Latest happenings</p>
+    <p>Latest happenings</p>
+    <p>Latest happenings</p>
+    <p>Latest happenings</p>
+    <p>Latest happenings</p>
+
 </div>
 </body>
 </html>

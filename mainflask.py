@@ -24,16 +24,13 @@ def table():
                            header_img="/static/title.png")  # Expandable, just change the parameter
 
 
-@app.route('/KaliDocs/')
-def kalidocs():
-    return render_template("kalidocs.html")
-
-
 @app.route('/wereworkingonthat/')
 def wereworkingonthat():
-    return render_template("wereworkingonthat.html")
+    return render_template("wereworkingonthat.html",
+                           header_img="/static/title.png")
 
 
 @app.route('/policy/')
 def policy():
-    return render_template("policy.html")
+    return render_template("policy.html",
+                           header_img="/static/title.png")

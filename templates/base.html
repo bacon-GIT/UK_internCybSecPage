@@ -4,8 +4,10 @@
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>{% block title %}{% endblock %} - My Webpage</title>
-    <h1><img src="{{ header_img }}" /></h1>
-    <h1>Kali Homepage for CybSec</h1><hr />
+    <div class="header">
+      <h1><img src="{{ header_img }}" /></h1>
+      <h1 style="padding-right: 100px">Kali Homepage for CybSec</h1>
+    </div>
     {% endblock %}
   </head>
   <body>
