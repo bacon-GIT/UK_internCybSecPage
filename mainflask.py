@@ -1,7 +1,6 @@
 # FLASK_APP=mainflask.py
 # Developed by Josh Bacon
-# Support: bacon@uky.edu
-#
+
 
 from flask import Flask, render_template
 import uscertparse
